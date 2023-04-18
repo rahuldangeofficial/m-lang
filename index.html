@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>मराठीLang - you can write code in मराठी!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>मराठीLang - you can write code in मराठी!</h1>
+    <nav>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./documentation.html">Documentation</a></li>
+        <li><a href="./examples.html">Examples</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="input-box">
+        <h2>Input</h2>
+        <textarea id="inputTextArea" rows="10">
+जर(1){&#13;&#10;   दाखवा(1);&#13;&#10;}अन्यथा{&#13;&#10;   दाखवा(0);&#13;&#10;}&#13;&#10;&#13;&#10;ऐका x आहे 5;&#13;&#10;ऐका y आहे 3;&#13;&#10;&#13;&#10;ऐका sum आहे x अधिक y;&#13;&#10;दाखवा(sum);</textarea
+        >
+        <button onclick="runCode()">Run</button>
+      </div>
+      <div class="output-box">
+        <h2>Output</h2>
+        <pre id="log"></pre>
+        <button id="clearButton" onclick="clearOutput()">Clear</button>
+      </div>
+    </div>
+    <script src="./mLang-algo.js"></script>
+  </body>
+</html>

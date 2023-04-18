@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <style>
+      body {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="syntax-documentation">Syntax &amp; Documentation</h1>
+    <h5 id="-important-semicolon-are-mandatory-">
+      [important] Semicolon are mandatory.
+    </h5>
+    <h3 id="variable-declaration-assignment">
+      Variable Declaration &amp; Assignment
+    </h3>
+    <pre><code>    ऐका x आहे <span class="hljs-string">"therahuldange"</span><span class="hljs-comment">;</span>
+    ऐका x आहे <span class="hljs-number">0</span><span class="hljs-comment">;</span>
+    ऐका x आहे <span class="hljs-number">5</span>.<span class="hljs-number">5</span><span class="hljs-comment">;</span>
+    ऐका x आहे खरे<span class="hljs-comment">; /* खरे means true */</span>
+    ऐका x आहे खोटे<span class="hljs-comment">; /* खोटे means false */</span>
+
+    <span class="hljs-comment">/* ऐका perform declaration */</span>
+    <span class="hljs-comment">/* आहे perform assignment */</span>
+</code></pre>
+    <h3 id="showing-output">Showing output</h3>
+    <pre><code>    दाखवा<span class="hljs-comment">(10)</span>; 
+    <span class="hljs-comment">/* shows output as 10 */</span>
+</code></pre>
+    <h3 id="arithmetic-expressions">Arithmetic Expressions</h3>
+    <pre><code>    दाखवा(<span class="hljs-number">10</span> अधिक <span class="hljs-number">2</span>); <span class="hljs-comment">/* 12 */</span> 
+    <span class="hljs-comment">/* अधिक perform addition */</span>
+
+    दाखवा(<span class="hljs-number">10</span> वजा <span class="hljs-number">2</span>); <span class="hljs-comment">/* 8 */</span>
+    <span class="hljs-comment">/* वजा perform subtraction */</span>
+
+    दाखवा(<span class="hljs-number">10</span> गुणिले <span class="hljs-number">2</span>); <span class="hljs-comment">/* 20 */</span>
+    <span class="hljs-comment">/* गुणिले perform multiplication */</span> 
+
+    दाखवा(<span class="hljs-number">10</span> भागिले <span class="hljs-number">2</span>); <span class="hljs-comment">/* 5 */</span>
+    <span class="hljs-comment">/* भागिले perform division */</span>
+</code></pre>
+    <h3 id="conditional-statements">Conditional Statements</h3>
+    <pre><code>    जर<span class="hljs-comment">(खरे)</span> {       
+      दाखवा<span class="hljs-comment">(1)</span>;
+    }
+
+    जर<span class="hljs-comment">(खरे)</span> {       
+      दाखवा<span class="hljs-comment">(1)</span>;
+    }अन्यथा{
+      दाखवा<span class="hljs-comment">(0)</span>;
+    }
+</code></pre>
+    <h3 id="loops">Loops</h3>
+    <pre><code>    लूप(ऐका i आहे <span class="hljs-number">0</span><span class="hljs-comment">;i&lt;10;i आहे i अधिक 1){</span>
+      दाखवा(i)<span class="hljs-comment">;</span>
+    }<span class="hljs-comment">;  </span>
+
+    असताना(खोटे){
+        दाखवा(<span class="hljs-number">1</span>)<span class="hljs-comment">;</span>
+    }
+
+    करा{
+      दाखवा(<span class="hljs-number">1</span>)<span class="hljs-comment">;</span>
+    }असताना(खोटे)<span class="hljs-comment">;</span>
+</code></pre>
+    <h3 id="functions">Functions</h3>
+    <pre><code>    कार्य sayHi(yourName){
+      परतकरा <span class="hljs-string">'Hi '</span>+yourName; 
+    }
+
+    दाखवा(sayHi(<span class="hljs-string">'rahul'</span>));
+</code></pre>
+    <h3 id="switch-cases">Switch Cases</h3>
+    <pre><code>    ऐका x आहे <span class="hljs-number">0</span><span class="hljs-comment">;</span>
+
+    स्विच(x) {
+       समान <span class="hljs-number">0</span>:
+        दाखवा(<span class="hljs-number">0</span>)<span class="hljs-comment">;</span>
+        थांबा<span class="hljs-comment">;</span>
+       समान <span class="hljs-number">1</span>:
+        दाखवा(<span class="hljs-number">1</span>)<span class="hljs-comment">;</span>
+        थांबा<span class="hljs-comment">;</span>
+       डीफॉल्ट:
+        दाखवा(x)<span class="hljs-comment">;</span>
+    }
+
+
+    <span class="hljs-comment">/*  "थांबा" work like break */</span>
+    <span class="hljs-comment">/* "पुढेजा" work like continue */</span>
+</code></pre>
+  </body>
+</html>
